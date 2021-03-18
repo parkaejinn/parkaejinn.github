@@ -1,10 +1,10 @@
-baseurl: "/zolan" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://parkaejinn.github.io/
+# baseurl: "/zolan" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://parkaejinn.github.io/
 
 
 # Build settings
 markdown: kramdown
-permalink: http://parkaejinn.github.io/
+# permalink: http://parkaejinn.github.io/
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
