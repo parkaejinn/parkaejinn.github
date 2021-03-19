@@ -64,12 +64,20 @@ last_modified_at: 2020-05-25
 
 ## 6. 작성한 포스트 파일을 git push 하여 Github Pages 서버에 업로드 하기
 ***
- 1. git이 미리 설치되어 있어야 한다.
- 2.  모든 변경 내용 스테이징을 누르고 (= git add .)
- 
-3. 메세지를 쓴 후 체크 표시를 누르면 Commit 된다. (= git commit -m “내용”)
-4.  체크 표시 옆에 … 를 눌러 Push (= git push) 해주면 업로드가 된다.
-<br><br>
+  1. Commit 아이콘을 클릭.
+ 2. Commit시 남길 메모를 입력하고 엔터 
+    + repository에 반영한 것이 어떤 작업인지 작성
+3. 이제 깃허브에 업로드
+   + Visual Studio Code 아래쪽에 보이는 TERMINAL 창을 선택
+   + 보이지 않는 경우 메뉴에서 View > Terminal을 선택
+  
+4. repository 페이지에 방문하여 Clone or download 버튼을 클릭하여 URL을 복사
+5. __git remote add origin__ 본인 URL 
+6. ex) __git remote add origin__ https://github.com/https://github.com/parkaejinn/parkaejinn.github.io.git 
+   + 원격 repository 주소를 지정해주는 것이다
+7. git pull origin master --allow-unrelated-histories
+   + 깃허브에 있는 내용을 로컬 repository에 반영 해주는 것이다. 
+<br>
 
 + ### *GithubID.github.io 폴더 내의 변동 사항*
 
