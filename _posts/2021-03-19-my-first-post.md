@@ -2,7 +2,7 @@
 layout: post
 title:  블로그 포스팅하는 방법
 date:   2021-03-24 10:00:35 +0300
-image:  02.jpg
+image:  kim-daniels-lnPCB2PkB8M-unsplash.jpg
 tags:   Resources
 ---
 
