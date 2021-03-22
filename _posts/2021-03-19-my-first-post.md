@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  블로그 포스팅하는 방법
-date:   2021-03-24 10:00:35 +0300
+date:   2021-03-19 10:00:35 +0300
 image:  pexels-rachel-claire-4993161.jpg
 tags:   Resources
 ---
