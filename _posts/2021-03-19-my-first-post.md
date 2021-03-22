@@ -72,11 +72,12 @@ last_modified_at: 2020-05-25
    + 보이지 않는 경우 메뉴에서 View > Terminal을 선택
   
 4. repository 페이지에 방문하여 Clone or download 버튼을 클릭하여 URL을 복사
-5. __git remote add origin__ 본인 URL 
-6. ex) __git remote add origin__ https://github.com/https://github.com/parkaejinn/parkaejinn.github.io.git 
+5. git remote add origin __본인 URL__
+ ex)git remote add origin https://github.com/parkaejinn/parkaejinn.github.io.git
    + 원격 repository 주소를 지정해주는 것이다
-7. git pull origin master --allow-unrelated-histories
+6. git pull origin master --allow-unrelated-histories
    + 깃허브에 있는 내용을 로컬 repository에 반영 해주는 것이다. 
+7.git push -u origin master
 <br>
 
 + ### *GithubID.github.io 폴더 내의 변동 사항*
