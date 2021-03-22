@@ -1,0 +1,75 @@
+---
+layout: post
+title: VSCode에서 Github 연동하기 
+date:   2021-03-22 10:00:35 +0300
+image:  pexels-antonius-ferret-5254320.jpg
+tags:   Resources
+---
+
+## 1. Local Folder지정
+***
+VSCode에서 사용할 특정 폴더를 선택
+
+![img](./.png)
+
+## 2. Git 초기화 
+***
+(1) VSCode 메뉴 → 소스제어 메뉴를 선택 → Repository 초기화 선택
+
+![img](./)
+
+(2) 초기화 버튼 선택하면 Local/LocalFoder.png아래와 같은 화면이 표시되고 원하는 폴더를 선택 
+
+![img](./Git초기화.png)
+
+(3) 자신의 Window 폴더 경로로 이동하면 _.git_ 폴더가 생성된다
+
+![img](./Local/LocalFoder.png)
+
+(4) VSCode 소스 제어 메뉴에도 변경된다
+
+![img](./Local/LocalFoder.png)
+
+## 3. Git Stage 관리
+***
+
+(1) 파일을 생성할려면 test.txt 파일을 생성 →  좌측메뉴의 탁색기 버튼 클릭  →  파일을 추가 →  소스제어 아이콘에 _1_ 표시
+
+![img](./Local/LocalFoder.png)
+
+(2) 소스제어 메뉴를 선택 →  _+_ (변경 내용 스테이징) 선택하면 Stage 처리 
+
+![img](./Local/LocalFoder.png)
+
+(3) 변경 된 내용 확인
+
+![img](./Local/LocalFoder.png)
+
+(4) _..._  클릭하면 git과 관련된 여러가지 작업 수행가능 
+
+![img](./Local/LocalFoder.png)
+
+## 4. Git Commit 
+***
+
+Stage에올라간 내용은 Commit 명령어를 통해 GitHub에 반영된다.
+
+VSCode 소스 제어 아래 메뉴를 선택하면 된다.
+
+```
+git commit -m "test commit" 터미널에 입력한 것과 동일 
+```
+
+![img](./Local/LocalFoder.png)
+
+## 5. Remote원격 Repository
+***
+(1) Github에 원격 Repository를 미리 생성해둔 경우 rmote repository에 연결
+
+![img](./Local/LocalFoder.png)
+
+(2) 본인 ID와 PW를 입력하면 VSCode와 GitHub가 정상적으로 연결
+
+
+
+
