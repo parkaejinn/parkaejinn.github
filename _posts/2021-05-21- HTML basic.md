@@ -2,10 +2,10 @@
 layout: post
 title: API Gateway API에서 CORS 오류 해결하기.
 date:   2021-05-22 10:00:35 +0300
-image:  pexels-anderson-miranda-1975781
+image:  pexels-anderson-miranda-1975781.jpg
 ---
-![CORS](/images/CORS_1.png.png))
-![CORS](/images/CORS_2.png.png))
+![CORS](/images/CORS_1.png))
+![CORS](/images/CORS_2.png))
 
 ### 1. CORS (Cross-Origin Resource Sharing)란?
 
