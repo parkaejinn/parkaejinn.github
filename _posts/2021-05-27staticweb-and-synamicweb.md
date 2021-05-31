@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  정적웹사이트와 동적웹사이트
-date:   2018-07-24 15:01:35 +0300
+date:   2021-05-31 15:01:35 +0300
 image:  bruna-branco-NbtPi5nsgFA-unsplash.jpg
 tags:   Resources
 ---
