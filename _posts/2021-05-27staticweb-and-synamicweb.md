@@ -8,7 +8,7 @@ tags:   Resources
 
 ## 정적 웹 페이지 (static web pages)
 정적 웹 페이지는 언제 접속해도 같은 응답을 보내줍니다. 일단 HTML, CSS, JS 파일 등이 서버에 업로드되면 개발자가 수정하기 전까지 매번 같은 파일을 브라우저에 건네줍니다. 즉, 웹 서버가 정적 웹 페이지에 대한 요청을 받은 경우 서버는 추가적인 처리 과정 없이 클라이언트에게 응답을 보냅니다. 예를 들어 회사나 개인의 소개 페이지가 정적 웹 페이지의 좋은 예시입니다. 
-[staticwebanddynamic web](/images/staticweb.jpg)
+[staticweb-and-synamicweb](/images/staticweb.jpg)
 ## 동적 웹 페이지 (dynamic web pages)
 웹 서버가 동적 웹 페이지에 대한 요청을 받은 경우 서버는 추가적인 처리 과정 이후 클라이언트에게 응답을 보냅니다. 동적 페이지는 방문자와 상호작용하기 때문에 페이지 내용은 그때그때 다릅니다. 댓글, 날씨, 주가 정보 등과 같이 정보 변경이 잦은 곳에 많이 사용됩니다. 
 
@@ -20,7 +20,7 @@ tags:   Resources
 
 그렇기 때문이 이런 사이트들은 파이썬에서 requests 라이브러리를 이용해서 html 응답을 받아와도 동적인 데이터는 보이지 않는 것입니다. 받아온 응답에는 정적 페이지의 html 코드만 포함되어있으니까요.
 
-[staticwebanddynamic web](/images/dynamicweb2.jpg)
+[staticweb-and-synamicweb](/images/dynamicweb2.jpg)
 
  파이썬으로 동적 웹페이지에서 크롤링 하는 방법 
 
